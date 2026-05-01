@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magical Realm - Portfolio</title>
+    <meta name="description" content="A dark fantasy portfolio inspired by game UI aesthetics.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Magical Environment Effects -->
+    <div class="particles"></div>
+    <div class="fog-overlay"></div>
+
+    <!-- Navigation -->
+    <header class="game-nav">
+        <div class="logo">
+            <span class="gold-text">FRZ</span>
+        </div>
+        <nav>
+            <a href="index.html">Journey</a>
+            <a href="about.html">About Me</a>
+            <a href="porto.html">Portofolio</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <!-- About Me Section -->
+        <section id="about" class="lore-section">
+            <div class="content-wrapper reveal">
+                <h2 class="section-title text-glow">About Me</h2>
+
+                <div class="lore-grid" style="align-items: stretch;">
+                    <!-- Left Column: Intro + Data Diri -->
+                    <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div class="lore-text card-bg" style="font-size: 0.95rem; flex: 1;">
+                            <h3
+                                style="color: var(--gold-bright); font-family: 'Cinzel Decorative', serif; margin-bottom: 0.5rem;">
+                                The Adventurer</h3>
+                            <p>"Halo, saya Muhammad Fikran Al Farizi, mahasiswa Teknik Informatika Universitas Bengkulu
+                                yang saat ini sedang menempuh semester 4. Saya memiliki antusiasme tinggi di bidang
+                                teknologi dan aktif mengasah kemampuan organisasi sebagai anggota Divisi Kominfo PDD.
+                                Selain fokus di dunia akademik, saya juga seorang praktisi bisnis yang sedang
+                                mengembangkan usaha kuliner bernama Burgercuy."</p>
+
+                            <h3
+                                style="color: var(--gold-bright); font-family: 'Cinzel Decorative', serif; margin-top: 1.5rem; margin-bottom: 0.5rem; border-bottom: 1px solid rgba(197, 160, 89, 0.3); padding-bottom: 5px;">
+                                Guild Affiliations (Socials)</h3>
+                            <ul style="list-style: none; display: flex; gap: 1rem; margin-bottom: 0;">
+                                <li><a href="https://www.instagram.com/fikran.frz/" target="_blank" style="color: inherit; text-decoration: none; transition: color 0.3s;"><i class="fa-brands fa-instagram"
+                                        style="color: var(--gold-aged); margin-right: 5px;"></i> fikran.frz</a></li>
+                                <li><a href="#" target="_blank" style="color: inherit; text-decoration: none; transition: color 0.3s;"><i class="fa-brands fa-discord"
+                                        style="color: var(--gold-aged); margin-right: 5px;"></i> frz</a></li>
+                                <li><a href="https://www.youtube.com/@fikranalfarizi5866" target="_blank" style="color: inherit; text-decoration: none; transition: color 0.3s;"><i class="fa-brands fa-youtube"
+                                        style="color: var(--gold-aged); margin-right: 5px;"></i> FIKRAN ALFARIZI</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Data Diri Box -->
+                        <div class="lore-text card-bg" style="font-size: 0.95rem; flex: 1;">
+                            <h3
+                                style="color: var(--gold-bright); font-family: 'Cinzel Decorative', serif; margin-bottom: 0.5rem; border-bottom: 1px solid rgba(197, 160, 89, 0.3); padding-bottom: 5px;">
+                                Character Profile (Data Diri)</h3>
+                            <ul style="list-style: none; padding-left: 0; color: var(--text-main); font-size: 0.95rem;">
+                                <li style="margin-bottom: 10px;"><span
+                                        style="color: var(--gold-aged); display:inline-block; width: 80px; font-size:0.8rem; text-transform:uppercase;">Nama:</span>
+                                    Muhammad Fikran Al Farizi</li>
+                                <li style="margin-bottom: 10px;"><span
+                                        style="color: var(--gold-aged); display:inline-block; width: 80px; font-size:0.8rem; text-transform:uppercase;">Status:</span>
+                                    Mahasiswa Aktif</li>
+                                <li style="margin-bottom: 10px;"><span
+                                        style="color: var(--gold-aged); display:inline-block; width: 80px; font-size:0.8rem; text-transform:uppercase;">TTL:</span>
+                                    Bengkulu, 20 Juli 2006</li>
+                                <li style="margin-bottom: 10px;"><span
+                                        style="color: var(--gold-aged); display:inline-block; width: 80px; font-size:0.8rem; text-transform:uppercase;">Email:</span>
+                                    fikranfrz@gmail.com</li>
+                                <li><span
+                                        style="color: var(--gold-aged); display:inline-block; width: 80px; font-size:0.8rem; text-transform:uppercase;">Alamat:</span>
+                                    Bengkulu, Hibrida</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Image matching height -->
+                    <div class="lore-visual" style="height: 100%;">
+                        <div class="portrait-frame" style="height: 100%; display: flex; flex-direction: column;">
+                            <!-- GANTI FOTO DI SINI -->
+                            <img src="IMG_6170.JPG" alt="Mage Portrait"
+                                style="object-fit: cover; height: 100%; flex-grow: 1;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic & Guilds Section -->
+                <div style="margin-top: 4rem;">
+                    <h2 class="section-title text-glow" style="font-size: 2.5rem; margin-bottom: 2rem;">Riwayat Akademik
+                        & Organisasi</h2>
+                    <div class="ccg-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                        <div class="ccg-card epic">
+                            <div class="card-inner" style="padding: 1.5rem; justify-content: flex-start;">
+                                <div class="card-type" style="margin-bottom: 1.5rem;">Academic Lore (Akademik)</div>
+                                <ul
+                                    style="list-style: none; padding-left: 0; color: var(--text-main); font-size: 0.95rem;">
+                                    <li style="margin-bottom: 15px;"><i class="fa-solid fa-graduation-cap"
+                                            style="color: var(--gold-aged); margin-right: 5px; font-size: 1.2rem;"></i><br>S1
+                                        Informatika<br><span style="color: var(--text-muted); font-size: 0.85rem;">2024
+                                            - Sekarang</span></li>
+                                    <li><i class="fa-solid fa-school"
+                                            style="color: var(--gold-aged); margin-right: 5px; font-size: 1.2rem;"></i><br>SMAIT
+                                        IQRA'<br><span style="color: var(--text-muted); font-size: 0.85rem;">Jul 2021 -
+                                            Agt 2024</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ccg-card epic">
+                            <div class="card-inner" style="padding: 1.5rem; justify-content: flex-start;">
+                                <div class="card-type" style="margin-bottom: 1.5rem;">Guilds (Organisasi)</div>
+                                <ul
+                                    style="list-style: none; padding-left: 0; color: var(--text-main); font-size: 0.95rem;">
+                                    <li style="margin-bottom: 15px;"><i class="fa-solid fa-users"
+                                            style="color: var(--gold-aged); margin-right: 5px; font-size: 1.2rem;"></i><br>Anggota
+                                        Aktif Divisi Kominfo<br><span
+                                            style="color: var(--text-muted); font-size: 0.85rem;">HIMATIF (Himpunan
+                                            Mahasiswa Teknik Informatika)</span></li>
+                                    <li><i class="fa-solid fa-shield-halved"
+                                            style="color: var(--gold-aged); margin-right: 5px; font-size: 1.2rem;"></i><br>Anggota
+                                        Komisi Kedisiplinan<br><span
+                                            style="color: var(--text-muted); font-size: 0.85rem;">Pengalaman Kegiatan
+                                            Chrome XI</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hobbies & Skills Section -->
+                <div style="margin-top: 4rem;">
+                    <h2 class="section-title text-glow" style="font-size: 2.5rem; margin-bottom: 2rem;">Kemampuan &
+                        Minat Tambahan</h2>
+                    <div class="ccg-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                        <div class="ccg-card">
+                            <div class="card-inner" style="padding: 1.5rem; justify-content: flex-start;">
+                                <div class="card-type" style="margin-bottom: 1.5rem;">Passions (Hobi)</div>
+                                <ul
+                                    style="list-style: none; padding-left: 0; color: var(--text-main); font-size: 0.95rem;">
+                                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-fire-burner"
+                                            style="color: var(--gold-aged); margin-right: 5px;"></i> Memasak</li>
+                                    <li style="margin-bottom: 10px;"><i class="fa-solid fa-dumbbell"
+                                            style="color: var(--gold-aged); margin-right: 5px;"></i> Berolahraga</li>
+                                    <li><i class="fa-solid fa-film"
+                                            style="color: var(--gold-aged); margin-right: 5px;"></i> Menonton Film</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ccg-card">
+                            <div class="card-inner" style="padding: 1.5rem; justify-content: flex-start;">
+                                <div class="card-type" style="margin-bottom: 1.5rem;">Other Arcane Arts</div>
+                                <h4
+                                    style="color: var(--gold-aged); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 5px;">
+                                    Languages</h4>
+                                <ul
+                                    style="list-style: none; padding-left: 0; color: var(--text-main); font-size: 0.95rem; margin-bottom: 15px;">
+                                    <li>Indonesia (Lancar)</li>
+                                    <li>Inggris (Menengah)</li>
+                                </ul>
+                                <h4
+                                    style="color: var(--gold-aged); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 5px;">
+                                    Skills</h4>
+                                <ul
+                                    style="list-style: none; padding-left: 0; color: var(--text-main); font-size: 0.95rem;">
+                                    <li>Memasak (Eropa, Asia, Amerika)</li>
+                                    <li>Coding Dasar</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills (CCG Cards) -->
+        <section id="skills" class="skills-section">
+            <div class="content-wrapper reveal">
+                <h2 class="section-title text-glow">Technical Skills</h2>
+                <p class="section-subtitle">The Arcane Arts I have mastered.</p>
+
+                <div class="ccg-grid">
+                    <!-- Skill Card 1 -->
+                    <div class="ccg-card">
+                        <div class="card-inner">
+                            <div class="card-art html-art">
+                                <i class="fa-brands fa-html5"></i>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-type">Fundamental Magic</div>
+                                <h3 class="card-name">HTML5 & CSS3</h3>
+                                <p class="card-effect">Summons the foundational structure and ethereal styling of any
+                                    digital realm. Grants +10 to Aesthetics.</p>
+                            </div>
+                            <div class="card-stats">
+                                <span>Mana: 10</span>
+                                <span>Power: 95</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 2 -->
+                    <div class="ccg-card epic">
+                        <div class="card-inner">
+                            <div class="card-art js-art">
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-type">Logic Sorcery</div>
+                                <h3 class="card-name">JavaScript</h3>
+                                <p class="card-effect">Breathes life into static objects. Casts powerful interactive
+                                    spells and manipulates the DOM matrix.</p>
+                            </div>
+                            <div class="card-stats">
+                                <span>Mana: 15</span>
+                                <span>Power: 90</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 3 -->
+                    <div class="ccg-card legendary">
+                        <div class="card-inner">
+                            <div class="card-art react-art">
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-type">Master Alchemy</div>
+                                <h3 class="card-name">React & Vue</h3>
+                                <p class="card-effect">Creates modular, reusable components of immense power. Creates
+                                    Single Page Dimensions effortlessly.</p>
+                            </div>
+                            <div class="card-stats">
+                                <span>Mana: 20</span>
+                                <span>Power: 85</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
